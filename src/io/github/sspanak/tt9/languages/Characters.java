@@ -28,23 +28,23 @@ public class Characters {
 	));
 
 	final private static ArrayList<ArrayList<String>> Emoji = new ArrayList<>(Arrays.asList(
-		// positive
+		// main faces
 		new ArrayList<>(Arrays.asList(
-			"🙂", "😀", "🤣", "🤓", "😎", "😛", "😉"
+			"😋", "😤", "🤣", "🥺", "😎", "😛", "😉", "🙂", 
 		)),
-		// negative
+		// hearts
 		new ArrayList<>(Arrays.asList(
-			"🙁", "😢", "😭", "😱", "😲", "😳", "😐", "😠"
+			"❤", "😍", "🥰", "💕", "💞", "💘", "💖", "💝", "❤️‍🔥", "💔"
+		))
+		// misc
+		new ArrayList<>(Arrays.asList(
+			"🫡", "😩", "😢", "😭", "😥", "🤔", "😳", "😬", "🙃", "😔"
 		)),
 		// hands
 		new ArrayList<>(Arrays.asList(
-			"👍", "👋", "✌️", "👏", "🖖", "🤘", "🤝", "💪", "👎"
+			"🙏", "👍", "👋", "☝️", "✌️", "🤞", "👏", "🤝", "👎", "🎉", "🫂"
 		)),
-		// emotions
-		new ArrayList<>(Arrays.asList(
-			"❤", "🤗", "😍", "😘", "😇", "😈", "🍺", "🎉", "🥱", "🤔", "🥶", "😬"
-		))
-	));
+	))
 
 
 	public static int getEmojiLevels() {
